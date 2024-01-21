@@ -43,7 +43,7 @@
       },
       "SUPPORT_CHAT": {
         "description": "ضـع رابـط جـروب الـدعـم",
-        "value": "https://t.me/BDthon1",
+        "value": "https://t.me/BDthon",
         "required": false
       }
     },
