@@ -6,7 +6,7 @@ from ShahmMusic import app, pytgcalls
 from ShahmMusic.Helpers import _clear_, admin_check, close_key
 
 
-@app.on_message(filters.command(["stop", "end"]) | filters.command(["ايقاف","اسكت"],prefixes= ["/", "!","","#"]) & filters.group)
+@app.on_message(filters.command(["stop", "end"]) | filters.command(["ايقاف","انجب"],prefixes= ["/", "!","","#"]) & filters.group)
 @admin_check
 async def stop_str(_, message: Message):
     try:
