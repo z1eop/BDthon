@@ -6,7 +6,7 @@ from ShahmMusic import app, pytgcalls
 from ShahmMusic.Helpers import admin_check, close_key, is_streaming, stream_on
 
 
-@app.on_message(filters.command(["resume"]) | filters.command(["يلا ولك","كمل","الغاء الكتم","مسلت"],prefixes= ["/", "!","","#"]) & filters.group)
+@app.on_message(filters.command(["resume"]) | filters.command(["يلاولك","كمل","الغاء الكتم","مسلت"],prefixes= ["/", "!","","#"]) & filters.group)
 @admin_check
 async def res_str(_, message: Message):
     try:
